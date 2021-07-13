@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 const path = require("path");
 
-
+//creates routes for html files
 router.get("/exercise", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/exercise.html"));
 });

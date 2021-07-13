@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 
-
+//created new schema
 const workout = new Schema({
   exercises: [
     {
