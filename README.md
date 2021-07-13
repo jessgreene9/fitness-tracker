@@ -4,8 +4,8 @@ An application that gives the user the ability to track their daily workouts and
 ## Table of contents
 
 - [Description](#description)
+- [Deployed App](#deployed-app)
 - [Demonstration](#demonstration)
-- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tech](#tech)
@@ -18,18 +18,18 @@ An application that gives the user the ability to track their daily workouts and
 
 This is a fitness tracker that allows the user to create new workouts and track their workouts daily. The user is given the option to either add new workout, or continue workout. They are able to view the name, type, weight, sets, reps, and duration of each exercise they complete. In the dashboard section of the application, the user can view their total distance and weights lifted by day for the past 7 days. 
 
+
+## Deployed App
+
+[Click here for Deployed App](https://fitness-tracker-09.herokuapp.com/?id=60ece9763752ea0015afd1e2)
+
 ## Demonstration
-[Click here for Demo](https://drive.google.com/file/d/1Ie8_PaI30G7Dp46bA2DAhc8lofcmZzA6/view)
+<img src="./public/images/demo.gif">
 
-
-## Screenshots
-<img src="./assets/images/screenshot.png">
-<img src="./assets/images/screenshot2.png">
-<img src="./assets/images/screenshot3.png">
 
 
 ## Installation
-This application requires the installment of 'express', mongoose, and morgan. Please run:
+This application requires the installment of 'express', 'mongoose', and 'morgan'. Please run:
   ```
       npm i
   ```
@@ -39,6 +39,7 @@ This application requires the installment of 'express', mongoose, and morgan. Pl
 After the required dependencies are installed, open terminal and run the following command line to initiate the application on the localhost. You can also view the deployed application in the heroku website linked above. 
 
   ```
+    npm run seed
     npm start
 
   ```
